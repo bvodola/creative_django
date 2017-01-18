@@ -3,7 +3,7 @@ import os
 """
 Main Settings
 """
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['.bvodola.webfactional.com', '.mpg.net.br']
 ADMINS = (('Brunno', 'bvodola@gmail.com'),)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
