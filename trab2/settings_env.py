@@ -5,9 +5,10 @@ Check Enviroment
 """
 
 DEV_HOST = 'MacBook-Air-de-Brunno.local'
+DEV_HOST_2 = 'bvodola'
 PROD_HOST = 'web540.webfaction.com'
 
-if socket.gethostname() == DEV_HOST:
+if socket.gethostname() == DEV_HOST or socket.gethostname() == DEV_HOST_2:
 	from .settings_dev import *
 elif socket.gethostname() == PROD_HOST:
 	from .settings_prod import *
