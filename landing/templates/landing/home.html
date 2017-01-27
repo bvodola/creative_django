@@ -1,0 +1,32 @@
+{% extends './index.html' %}
+{% load static %}
+
+{% block content %}
+
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h1 id="homeHeading">Produza seu evento com a Direção SP Eventos</h1>
+            <hr>
+            <!-- <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p> -->
+            <a href="#about" class="btn btn-primary btn-xl page-scroll">Fazer um Orçamento</a>
+        </div>
+    </div>
+</header>
+
+
+
+<!-- ******** -->
+<!-- Services -->
+<!-- ******** -->
+{% include './includes/_services.html' %}
+
+<!-- ********* -->
+<!-- Portfolio -->
+<!-- ********* -->
+{% include './includes/_portfolio.html' %}
+{% include './includes/_jumbo.html' %}
+{% include './includes/_contact.html' %}
+
+
+{% endblock %}

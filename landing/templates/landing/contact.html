@@ -1,0 +1,12 @@
+{% extends './index.html' %}
+{% load static %}
+
+{% block content %}
+  {% include './includes/_contact.html' %}
+  <hr class="primary">
+  {% include './includes/_contact_form.html' %}
+{% endblock %}
+
+{% block js %}
+  {% include './includes/_formspree.html' %}
+{% endblock %}

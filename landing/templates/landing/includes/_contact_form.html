@@ -1,0 +1,26 @@
+<div class="col-lg-8 col-lg-offset-2">
+  <form method="POST" action="https://formspree.io/contato@direcaosp.com" class="send-email">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <input type="text" class="form-control" name="name" placeholder="Nome" required pattern=".{1,}">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <input type="email" class="form-control" name="email" placeholder="Email" required pattern=".{1,}" >
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="form-group">
+          <textarea class="form-control" placeholder="Mensagem" name="message" id="" cols="30" rows="10"></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <button type="submit" class="full-xs btn btn-primary btn-xl">Enviar Mensagem</button>
+      </div>
+    </div>
+  </form>
+</div>
